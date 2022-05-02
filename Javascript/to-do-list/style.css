@@ -46,7 +46,7 @@ ul li.checked {
   text-decoration: line-through;
 }
 
-/* Quando clicar,m aparece a marca como "checked"*/
+/* Quando clicar, aparece a marca como "checked"*/
 ul li.checked::before {
   content: '';
   position: absolute;
@@ -92,7 +92,7 @@ ul li.checked::before {
 input {
   margin: 0;
   border: none;
-  border-radius: 0;
+  border-radius: 10px;
   width: 75%;
   padding: 10px;
   float: left;
@@ -110,7 +110,7 @@ input {
   font-size: 16px;
   cursor: pointer;
   transition: 0.3s;
-  border-radius: 0;
+  border-radius: 10px;
 }
 /*Muda a cor do botão "adiciona" ao passar por cima com o mouse*/
 .addBtn:hover {
